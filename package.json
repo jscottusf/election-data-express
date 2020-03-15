@@ -1,0 +1,26 @@
+{
+  "name": "election-data",
+  "version": "1.0.0",
+  "description": "## Web Application - Intereactive web application allowing user to access polling data and election day forcast - Uses FiveThirtyEight polling data to track 2020 general election - App features an interactive map which displays polling data along with rough estimate of election day probabilities - Click on any state to see up to date polling data and averages - Adjust weight of polls versus state partisan lean - For a limited time only...you can project both Bernie Sanders and Joe Biden - Deployed at https://jscottusf.github.io/election-data/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscottusf/election-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscottusf/election-data/issues"
+  },
+  "homepage": "https://github.com/jscottusf/election-data#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
