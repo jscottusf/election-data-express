@@ -387,3 +387,8 @@ updateElectionData();
 appendData(demName, pollType);
 esimateOutcome();
 setStateColors();
+
+database.ref().set({
+  statePolls : statePolls,
+  nationalPolls : nationalPolls,
+});
